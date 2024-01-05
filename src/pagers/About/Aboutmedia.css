@@ -1,0 +1,90 @@
+@media (max-width: 1200px) {
+    .about{
+        gap: 30px;
+    }
+.About-menu>h1{
+    font-size: 1rem;
+}
+.About-menu>h1>span{
+    font-size: 1rem;
+}
+}
+@media (max-width: 992px) {
+.About-menu>h1{
+    font-size: .9rem;
+}
+.About-menu>h1>span{
+    font-size: .9rem;
+}
+.skill-bar>h2{
+    font-size: 1.5rem;
+}
+.skill-bar>h1{
+    font-size: 1rem;
+}
+.about-me>h1{
+    font-size: 2rem;
+}
+.about-me>p{
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+}
+@media (max-width: 768px) {
+.about{
+    display: block;
+}
+.flex-1{
+    gap: 30px;
+}
+.About-menu>h1{
+    padding-top: 10px;
+}
+}
+@media (max-width: 580px) {
+    .about{
+        width: 500px;
+    }
+}
+@media (max-width: 530px) {
+    .about{
+        width: 450px;
+    }
+
+}
+@media (max-width: 480px) {
+    .about{
+        width: 400px;
+    }
+
+}
+@media (max-width: 425px) {
+    .About-menu>h1{
+        font-size: .7rem;
+    }
+    .About-menu>h1>span{
+        font-size: .7rem;
+    }
+    .flex-1{
+        gap: 20px;
+    }
+    .about{
+        width: 350px;
+    }
+
+}
+@media (max-width: 380px) {
+    .about{
+        padding: 5rem 2rem;
+        width: 300px;
+    }
+
+}
+@media (max-width: 330px) {
+    .about{
+        padding: 5rem 1rem;
+        width: 270px;
+    }
+
+}

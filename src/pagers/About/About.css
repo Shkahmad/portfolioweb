@@ -1,0 +1,157 @@
+.about {
+  overflow: hidden;
+  padding: 5rem 4rem;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 5px 20px black;
+}
+.into {
+  display: block;
+}
+.flex-1 {
+  gap: 25px;
+  display: flex;
+}
+.imgg > img {
+  border-radius: 8px;
+  width: 110%;
+  height: 100%;
+}
+.About-menu > h1 {
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+.About-menu > h1 > span {
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 1.5rem;
+}
+
+.skill-bar {
+  padding-top: 40px;
+}
+.skill-line-1 {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.skill-line-1 > p {
+  margin-top: 15px;
+  height: 15px;
+  width: 95%;
+  background-color: #cde1f8;
+}
+.skill-line-1 > p > h6 {
+  height: 15px;
+  width: 85%;
+  background-color: #0078ff;
+}
+.skill-line-2 {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.skill-line-2 > p {
+  margin-top: 15px;
+  height: 15px;
+  width: 95%;
+  background-color: #cde1f8;
+}
+.skill-line-2 > p > h6 {
+  height: 15px;
+  width: 80%;
+  background-color: #0078ff;
+}
+.skill-line-3 {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.skill-line-3 > p {
+  margin-top: 15px;
+  height: 15px;
+  width: 95%;
+  background-color: #cde1f8;
+}
+.skill-line-3 > p > h6 {
+  height: 15px;
+  width: 60%;
+  background-color: #0078ff;
+}
+.skill-line-4 {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.skill-line-4 > p {
+  margin-top: 15px;
+  height: 15px;
+  width: 95%;
+  background-color: #cde1f8;
+}
+/* .skill-line-4 > p > h6 {
+  height: 15px;
+  width: 30%;
+  background-color: #0078ff;
+} */
+
+.about-me {
+  display: block;
+}
+.about-me > h1 {
+  font-size: 3rem;
+}
+.about-me > p {
+  color: rgba(0, 0, 0, 0.473);
+  padding-top: 40px;
+  font-size: 1.5rem;
+}
+.skill-perhtml{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 85%;
+  border-radius: 6px;
+  background-color: #0078ff;
+  animation: progress 2s ease-in-out forwards;
+}
+.skill-percss{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 80%;
+  border-radius: 6px;
+  background-color: #0078ff;
+  animation: progress 2s ease-in-out forwards;
+}
+.skill-perJAVASCRIPT{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 60%;
+  border-radius: 6px;
+  background-color: #0078ff;
+  animation: progress 2s ease-in-out forwards;
+}
+.skill-perREACT{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 30%;
+  border-radius: 6px;
+  background-color: #0078ff;
+  animation: progress 2s ease-in-out forwards;
+}
+
+@keyframes progress{
+  0%{
+      width: 0;
+      opacity: 0;
+     
+  }
+  100%{
+      opacity: 1;
+     
+  }
+}
